@@ -1,6 +1,8 @@
 ﻿// сложить 2 числа
-int numberA = 22;
-int numberB = 35;
+int numberA = new Random().Next(1,10); // 1 2 3 4...9 
+Console.WriteLine(numberA);
+int numberB = new Random().Next(1,10);
+Console.WriteLine(numberB);
 int Sum = numberA + numberB ;
 Console.Write("Сумма двух чисел составляет ");
 Console.Write(Sum);
